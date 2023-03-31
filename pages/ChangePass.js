@@ -1,14 +1,12 @@
+import React from "react";
+import { ChangePassword } from "./Components/ChangePassword";
 
-import React from 'react'
-import { ChangePassword } from './Components/ChangePassword'
-
- const ChangePass = () => {
+const ChangePass = () => {
   return (
     <div>
-<ChangePassword/>
+      <ChangePassword />
     </div>
-  )
-}
+  );
+};
 
-export default ChangePass
-
+export default ChangePass;
